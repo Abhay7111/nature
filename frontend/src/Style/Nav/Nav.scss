@@ -1,0 +1,32 @@
+.nav_main {
+    width: 100%;
+    // background-color: #B8CFB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+
+    .brand{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .quik_links{
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 30px;
+
+        .link{
+            text-decoration: none;
+            font-weight: 600;
+            color: #091413;
+            transition: all ease-in 200ms;
+
+            &:hover{
+                color: #9CB080;
+            }
+        }
+    }
+}
